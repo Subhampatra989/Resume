@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume - Subham Patra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Icon library -->
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('cover.jpeg');
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: white;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: rgba(34, 34, 34, 0.8);
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: 400;
+        }
+
+        header p {
+            margin: 0.5em 0;
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(68, 68, 68, 0.9);
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(102, 102, 102, 0.9);
+        }
+
+        section {
+            margin: 2em auto;
+            padding: 2em;
+            max-width: 900px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            text-align: center;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 0.5em;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: center;
+            color: #ddd;
+        }
+
+        .languages {
+            display: flex;
+            justify-content: center;
+            gap: 2.2em;
+        }
+
+        .language {
+            font-size: 2.5em;
+            color: #ddd;
+            transition: color 0.3s;
+        }
+
+        .language:hover {
+            color: #00bcd4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(34, 34, 34, 0.8);
+            color: #fff;
+            margin-top: auto;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Contact link styles */
+        .contact-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 1.1em;
+            text-decoration: none;
+            transition: color 0.3s, text-decoration 0.3s;
+        }
+
+        .contact-link:hover {
+            color: #00bcd4;
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            nav ul li a {
+                padding: 0.8em;
+                font-size: 1em;
+            }
+
+            section {
+                padding: 1.5em;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+
+            section p {
+                font-size: 1em;
+            }
+
+            .languages {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .language {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Subham Patra</h1>
+        <p>Web Developer | Full Stack | Programmer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="r_cover.html" aria-label="Go to Home">Home</a></li>
+            <li><a href="r_about.html" aria-label="Learn About Me">About Me</a></li>
+            <li><a href="r_edu.html" aria-label="View My Education">Education</a></li>
+            <li><a href="r_lang.html" aria-label="See Languages I Know">Languages</a></li>
+            <li><a href="r_project.html" aria-label="Explore My Projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- New Section Added -->
+    <section>
+        <h2>Hey, I am Subham</h2>
+        <p>Welcome to my resume webpage. Here, you'll find information about my skills, education, and projects.</p>
+    </section>
+
+    <!-- Programming Languages Icons Only -->
+    <section>
+        <div class="languages">
+            <div class="language">
+                <i class="fab fa-python"></i>
+            </div>
+            <div class="language">
+                <i class="fab fa-html5"></i>
+            </div>
+            <div class="language">
+                <i class="fab fa-css3-alt"></i>
+            </div>
+            <div class="language">
+                <i class="fab fa-js-square"></i>
+            </div>
+            <!-- Changed Java to C++ -->
+            <div class="language">
+                <i class="fab fa-cuttlefish"></i> <!-- C++ icon is not directly available, using a placeholder icon -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Link -->
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=subhampatra2393@gmail.com" class="contact-link" aria-label="Contact Subham Patra">Contact Me</a>
+
+        
+    </a>
+
+    <footer>
+        <p>&copy;  Designed by Subham Patra </p>
+    </footer>
+</body>
+</html>

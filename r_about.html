@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Subham Patra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #2e3b4e, #1f2833); /* Dark gradient background */
+            color: white;
+        }
+
+        header {
+            background-color: rgba(34, 34, 34, 0.85); /* Slight transparency for overlay effect */
+            color: #fff;
+            padding: 2em 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            margin: 0.5em 0;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        /* Go Home Button */
+        .go-home-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #3a3f47; /* Soft dark gray */
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .go-home-btn:hover {
+            background-color: #1f2833; /* Darker shade for hover */
+            transform: scale(1.1); /* Adds a slight zoom effect on hover */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        }
+
+        section {
+            margin: 3em auto;
+            padding: 2.5em;
+            max-width: 900px;
+            background-color: rgba(0, 0, 0, 0.75); /* Slight transparency */
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            text-align: center;
+            border-bottom: 3px solid #00bcd4; /* Cyan accent */
+            padding-bottom: 0.5em;
+            margin-top: 0;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+            color: #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(34, 34, 34, 0.9);
+            color: #fff;
+            margin-top: auto;
+            font-size: 0.9em;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section {
+                padding: 1.5em;
+            }
+
+            section h2 {
+                font-size: 2em;
+            }
+
+            section p {
+                font-size: 1em;
+            }
+
+            .go-home-btn {
+                padding: 8px 16px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <p>Get to know more about Subham Patra</p>
+    </header>
+
+    <!-- Go Home Button -->
+    <button class="go-home-btn" onclick="window.location.href='r_cover.html'">Go Home</button>
+
+    <section>
+        <h2>Hi, I'm Subham!</h2>
+        <p>
+            I'm a passionate Full Stack Web Developer with a keen interest in computer science and engineering. I come from the small village of Narendrachak in West Bengal. 
+            Growing up, I developed a strong love for sports, especially cricket. I have had the opportunity to play in district-level cricket tournaments and have been actively involved in various club cricket matches.
+        </p>
+        <p>
+            My educational journey started at Arambagh Vivekananda Academy, where I completed my schooling. Currently, I am pursuing my undergraduate degree in Computer Science and Engineering from Chandigarh University. 
+            I'm constantly eager to learn new technologies and work on real-world projects that solve problems and make a positive impact.
+        </p>
+        <p>
+            When I'm not coding, you can find me on the cricket field or exploring new technologies in the realm of web development. I believe in the power of continuous learning and strive to improve my skills every day.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; Designed by Subham Patra</p>
+    </footer>
+</body>
+</html>
